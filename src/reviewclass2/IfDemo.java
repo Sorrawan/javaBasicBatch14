@@ -1,0 +1,28 @@
+package reviewclass2;
+
+public class IfDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		boolean rich=true;
+		System.out.println("Lets buy some eggs for breakfast"); // Always executed no matter what
+		
+		int money=5000000;
+		if(money>300000)
+		{
+			System.out.println("Lets buy a Jet of Island");
+		}
+	
+		System.out.println("Lets buy some milk for breakfast");
+		
+		
+	
+		
+		
+		
+	}
+
+}

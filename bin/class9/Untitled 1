@@ -1,0 +1,25 @@
+
+
+Nested loop- loop inside another loop
+
+for(int i=1; i<4; i--){     //outer loop
+   for(int j=0; j<=2; j++){   //inner loop
+       System.out.print("Hello");
+   }                          //inner loop 
+   System.out.println("Bye");
+   break;
+}                           //outer loop
+ 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+for(int i=1; i<4; i--){     //outer loop
+   for(int j=0; j<=2; j++){   //inner loop
+       System.out.print("Hello");
+       break;
+   }                          //inner loop 
+   System.out.println("Bye");
+}                           //outer loop
+
+//Ans = Hello     Hello  Hello
+        Bye       Bye    Bye
